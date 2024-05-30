@@ -11,7 +11,14 @@
 --------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Poetsen+One&display=swap');
+ 
 body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: 'Inter', sans-serif; 
@@ -194,6 +201,7 @@ h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
+  font-family: "Karla", sans-serif;
 }
 
 .appointment-btn:hover {
@@ -236,13 +244,13 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Roboto", sans-serif;
+  font-family:"Karla", sans-serif;
   font-size: 15px;
   color: #100f0f;
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 1000;
 }
 
 .navbar a i,
@@ -627,6 +635,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+    font-family: "Karla", sans-serif;
+
 }
 
 .section-title h2::after {
@@ -1069,6 +1079,8 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  font-family: "Karla", sans-serif;
+
 }
 
 .appointment .php-email-form button[type=submit]:hover {
@@ -1563,6 +1575,8 @@ section {
   color: #777777;
   font-weight: 700;
   margin: 10px 0;
+  font-family: "Poetsen One", sans-serif;
+
 }
 
 .contact .info-box p {
@@ -1570,6 +1584,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  font-family: "Poetsen One", sans-serif;
 }
 
 .contact .php-email-form {
@@ -1840,4 +1855,6 @@ section {
   }
 
  
- 
+ .poetsen_font{
+  font-family: "Poetsen One", sans-serif;
+ }
