@@ -12,6 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $contactname = $_POST['contactname'] ?? '';
     $contactemail = $_POST['contactemail'] ?? '';
     $contactsubject = $_POST['contactsubject'] ?? '';
+    $contactnumber = $_POST['contactnumber'] ?? '';
+
     $contactmessage = $_POST['contactmessage'] ?? '';
 
     // Create a new PHPMailer instance
@@ -39,7 +41,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h1>Contact Details</h1>
             <p><strong>Name:</strong> $contactname</p>
             <p><strong>Email:</strong> $contactemail</p>
-            <p><strong>Phone:</strong> $contactsubject</p>
+            <p><strong>Subject:</strong> $contactsubject</p>
+            <p><strong>Phone:</strong> $contactnumber</p>
             <p><strong>Message:</strong><br>$contactmessage</p>
         ";
 
