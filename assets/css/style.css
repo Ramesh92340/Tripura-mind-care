@@ -208,7 +208,7 @@ h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-   font-family: "Azeret Mono", monospace;
+  font-family: "Azeret Mono", monospace;
 }
 
 .appointment-btn:hover {
@@ -251,7 +251,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-   font-family: "Azeret Mono", monospace;
+  font-family: "Azeret Mono", monospace;
   font-size: 15px;
   color: #100f0f;
   white-space: nowrap;
@@ -544,7 +544,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 
 }
 
@@ -644,7 +644,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-   font-family: "Azeret Mono", monospace;
+  font-family: "Azeret Mono", monospace;
 
 }
 
@@ -1090,7 +1090,7 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
-   font-family: "Azeret Mono", monospace;
+  font-family: "Azeret Mono", monospace;
 
 }
 
@@ -1137,7 +1137,7 @@ section {
 
 .departments .nav-link.active h4 {
   color: #0598d2;
-  
+
 }
 
 .departments .tab-pane.active {
@@ -1243,7 +1243,7 @@ section {
 
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background:rgb(222 218 218 / 26%);
+  background: rgb(222 218 218 / 26%);
   position: relative;
   border-radius: 6px;
   position: relative;
@@ -1758,7 +1758,7 @@ section {
   position: relative;
   padding-bottom: 12px;
   font-family: "Kanit", sans-serif;
-  
+
 }
 
 #footer .footer-top .footer-links {
@@ -1795,18 +1795,21 @@ section {
   line-height: 1;
   font-family: "Lora", serif;
   font-weight: 700;
-  
+
 }
-.mini_text{
+
+.mini_text {
   font-family: "Lora", serif;
   font-weight: 700;
 
 }
-.phone_email{
+
+.phone_email {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
 
 }
+
 #footer .footer-top .footer-links ul a:hover {
   color: #01a084;
 }
@@ -1900,4 +1903,13 @@ section {
 .para_font {
   font-family: "Cactus Classical Serif", serif;
   font-weight: 600;
+}
+
+
+.scrollable-div {
+  height: 120vh;
+  
+  overflow-y: auto;
+  padding-right: 15px;
+   
 }

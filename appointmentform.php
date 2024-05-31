@@ -25,15 +25,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'bhaviwebdevelopment@gmail.com'; // Your Gmail email address
-        $mail->Password = 'ipotpfyrqocuxjld '; // Your Gmail password
+        $mail->Username = 'tripuramindcare@gmail.com'; // Your Gmail email address
+        $mail->Password = 'ucnvynbxdvsfmdbm'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('bhaviwebdevelopment@gmail.com', 'Tripura-mind-care'); // Your Gmail email and name
-        $mail->addAddress('rameshpilli1428@gmail.com', 'Tripura-mind-care'); // Recipient's email and name
-
+        $mail->setFrom('tripuramindcare@gmail.com', 'Tripura-mind-care'); // Your Gmail email and name
+        $mail->addAddress('tripuramindcare@gmail.com', 'Tripura-mind-care'); // Recipient's email and name
         // Content
         $mail->isHTML(true);
         $mail->Subject = 'New Message from Appointment form';
