@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isHTML(true);
         $mail->Subject = 'New Message from Contact Form';
         $mail->Body = "
-            <h1>New Message</h1>
+           
             <h1>Contact Details</h1>
             <p><strong>Name:</strong> $contactname</p>
             <p><strong>Email:</strong> $contactemail</p>
