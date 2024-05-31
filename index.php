@@ -31,6 +31,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
 
+
 </head>
 
 <body>
@@ -134,7 +135,8 @@
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section>
+    <!-- End About Us Section -->
 
 
 
@@ -149,6 +151,7 @@
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
+
           <div class="col-lg-4 mb-5 mb-lg-0">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item mt-2">
@@ -226,6 +229,7 @@
               </li>
             </ul>
           </div>
+          
           <div class="col-lg-8">
             <div class="tab-content">
               <div class="tab-pane active show" id="depression">
@@ -1013,7 +1017,7 @@
                 required>
             </div>
             <div class="col-md-4 form-group mt-3">
-              <select name="department" id="department" class="form-select">
+              <select name="department" id="department" class="form-select" required>
                 <option value="">Select Service</option>
                 <option value="Depression">Depression</option>
                 <option value="Anxiety">Anxiety</option>
@@ -1102,7 +1106,7 @@
               </div>
             </div>
 
-         
+
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -1114,13 +1118,13 @@
        
 
 
-              <div class="swiper-slide">
+              <div class=" swiper-slide">
                 <div class="testimonial-item">
                   <img src="assets/img/tripura/Losing Concentration Easily.png" class="img-fluid">
                 </div>
               </div>
 
- 
+
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
@@ -1138,14 +1142,14 @@
                   <img src="assets/img/tripura/stress.png" class="img-fluid">
                 </div>
               </div>
-  
+
               <div class=" swiper-slide">
                 <div class="testimonial-item">
                   <img src="assets/img/tripura/person-feeling-anxiety-induced-by-book-studying_23-2150982003.png"
                     class="img-fluid">
                 </div>
               </div>
-              
+
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
@@ -1223,7 +1227,7 @@
 
 
           </div>
-          <div class="col-md-3  order-1 order-md-2 scrollable-div" >
+          <div class="col-md-3  order-1 order-md-2 scrollable-div">
 
             <video class="custom-video" controls style="width: 100%; height: auto;">
               <source src="assets/img/videos/Modern Business Slideshow Youtube Video Ad.mp4" type="video/mp4">
@@ -1376,16 +1380,15 @@
                   <input type="email" class="form-control" name="contactemail" id="email" placeholder="Your Email"
                     required="">
                 </div>
-              
-              <div class="col-md-6 form-group mt-3">
-                <input type="text" class="form-control" name="contactsubject" id="subject" placeholder="Subject"
-                  required="">
+
+                <div class="col-md-6 form-group mt-3">
+                  <input type="text" class="form-control" name="contactsubject" id="subject" placeholder="Subject">
+                </div>
+                <div class="col-md-6 form-group mt-3">
+                  <input type="text" class="form-control" name="contactnumber" id="number" placeholder="Phone"
+                    required="">
+                </div>
               </div>
-              <div class="col-md-6 form-group mt-3">
-                <input type="text" class="form-control" name="contactnumber" id="number" placeholder="Phone"
-                  required="">
-              </div>
-            </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="contactmessage" rows="7" placeholder="Message"
                   required=""></textarea>
@@ -1478,11 +1481,8 @@
             <div class="social-links mt-3">
               <a href="https://www.facebook.com/dr.akrstripuraskinandmindclinic/" target="_blank" class="facebook"><i
                   class="bx bxl-facebook"></i></a>
-              <a href="#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-linkedin"></i></a>
-              <a href="#" target="_blank" class="linkedin"><i class="bx bxl-pinterest"></i></a>
-              <a href="#" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.instagram.com/dr.akrs_tripura_mind_and_poly?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          
 
             </div>
 
