@@ -11,17 +11,24 @@
 --------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
- 
+
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
- 
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Poetsen+One&display=swap');
- 
+
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Cactus+Classical+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Cactus+Classical+Serif&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Cactus+Classical+Serif&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 body {
   /* font-family: "Open Sans", sans-serif; */
-  font-family: 'Inter', sans-serif; 
+  font-family: 'Inter', sans-serif;
   color: #444444;
 }
 
@@ -86,7 +93,7 @@ h6 {
 --------------------------------------------------------------*/
 
 
- 
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -201,12 +208,12 @@ h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  font-family: "Karla", sans-serif;
+   font-family: "Azeret Mono", monospace;
 }
 
 .appointment-btn:hover {
-  background:  #0598d2; 
-    color: #fff;
+  background: #0598d2;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -244,13 +251,13 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family:"Karla", sans-serif;
+   font-family: "Azeret Mono", monospace;
   font-size: 15px;
   color: #100f0f;
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
-  font-weight: 1000;
+  font-weight: 800;
 }
 
 .navbar a i,
@@ -537,6 +544,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+
 }
 
 #hero .carousel-control-next-icon:hover,
@@ -620,7 +629,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fcfc;
+  background-color: rgba(238, 238, 238, 0.686)
 }
 
 .section-title {
@@ -635,7 +644,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-    font-family: "Karla", sans-serif;
+   font-family: "Azeret Mono", monospace;
 
 }
 
@@ -1055,6 +1064,8 @@ section {
   box-shadow: none;
   font-size: 14px;
   padding: 10px !important;
+  font-family: "Azeret Mono", monospace;
+
 }
 
 .appointment .php-email-form input:focus,
@@ -1073,13 +1084,13 @@ section {
 }
 
 .appointment .php-email-form button[type=submit] {
-  background: #01539D ;
+  background: #01539D;
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
-  font-family: "Karla", sans-serif;
+   font-family: "Azeret Mono", monospace;
 
 }
 
@@ -1105,8 +1116,9 @@ section {
 
 .departments .nav-link h4 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 800;
   transition: 0.3s;
+  font-family: "Lora", serif;
 }
 
 .departments .nav-link p {
@@ -1119,12 +1131,13 @@ section {
 }
 
 .departments .nav-link.active {
-  background: #f7fcfc;
+  background: rgba(239, 239, 239, 0.695);
   border-color: #0598d2;
 }
 
 .departments .nav-link.active h4 {
   color: #0598d2;
+  
 }
 
 .departments .tab-pane.active {
@@ -1147,9 +1160,11 @@ section {
 
 .departments .tab-pane h3 {
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 20px;
   color: #0598d2;
+  font-family: "Lora", serif;
+
 }
 
 .departments .tab-pane p {
@@ -1225,14 +1240,16 @@ section {
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
+
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: #f0fafa;
+  background:rgb(222 218 218 / 26%);
   position: relative;
   border-radius: 6px;
   position: relative;
   z-index: 1;
+  font-family: "Poetsen One", sans-serif;
+
 }
 
 .testimonials .swiper-pagination {
@@ -1638,6 +1655,8 @@ section {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
+  font-family: "Azeret Mono", monospace;
+
 }
 
 .contact .php-email-form input:focus,
@@ -1660,6 +1679,8 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  font-family: "Azeret Mono", monospace;
+
 }
 
 .contact .php-email-form button[type=submit]:hover {
@@ -1687,7 +1708,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #f6f6f6;
+  background: rgb(245, 245, 245);
   padding: 60px 0 30px 0;
 }
 
@@ -1707,13 +1728,14 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lora", serif;
+  font-weight: 700;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #01a084;
+  background: #01539D;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1726,15 +1748,17 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #037a69;
+  background: #0598d2;
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   position: relative;
   padding-bottom: 12px;
+  font-family: "Kanit", sans-serif;
+  
 }
 
 #footer .footer-top .footer-links {
@@ -1769,8 +1793,20 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  
 }
+.mini_text{
+  font-family: "Lora", serif;
+  font-weight: 700;
 
+}
+.phone_email{
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+
+}
 #footer .footer-top .footer-links ul a:hover {
   color: #01a084;
 }
@@ -1814,13 +1850,15 @@ section {
   padding-top: 30px;
 }
 
-.copyright{
+.copyright {
   color: #fff;
 }
-.credits{
+
+.credits {
   color: #fff;
 }
-.credits a{
+
+.credits a {
   color: #fff;
 }
 
@@ -1848,13 +1886,18 @@ section {
 }
 
 
- 
-  .cor_med{
-      padding-top: 100px;
 
-  }
+.cor_med {
+  padding-top: 100px;
 
- 
- .poetsen_font{
+}
+
+
+.poetsen_font {
   font-family: "Poetsen One", sans-serif;
- }
+}
+
+.para_font {
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 600;
+}
